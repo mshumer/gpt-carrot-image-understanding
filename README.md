@@ -12,7 +12,9 @@ When I first got the chance to try out Carrot, I wanted to push it to the limit
 So, I combined Carrot with GPT-3, and the results were surprisingly good. It's nowhere near perfect yet -- often, the model will get things wrong, or will miss key details, but I only had a couple of hours to put this all together, so there's a lot of room for improvement (see below for things to work on).
 
 Here are some examples:
+
 ![FM5J_ulVUAAKovz](https://user-images.githubusercontent.com/41550495/156906534-97242518-a645-4e57-8c2d-a9e34876a3e2.png)
+
 This is a man working on a computer. The man has hair and is sitting down. His shirt is blue and his computer is silver. The computer is on and the man is typing on the keyboard. The computer screen is displaying code.
 
 
