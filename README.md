@@ -55,3 +55,7 @@ Anyway, I wasn't able to spend too much time on this since my focus is on build
 
 
 There are some really amazing use-cases that are enabled if we can improve the accuracy of the final results... for example, imagine being able to automatically describe any image on the web to someone who is vision impaired.
+
+If you have any questions, reach out to me on Twitter [@mattshumer_](https://twitter.com/mattshumer_).
+
+You can view the original Tweet thread where I first demonstrated this system [here.](https://twitter.com/mattshumer_/status/1499221753154863108)
