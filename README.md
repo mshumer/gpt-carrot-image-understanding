@@ -1,5 +1,5 @@
 # gpt-carrot-image-understanding
-Using GPT-3 and Carrot (GPT-3 for computer vision) to create detailed descriptions of images.
+Using [GPT-3](https://beta.openai.com) and [Carrot](https://app.banana.dev/docs/carrot?ref=navmenu) (GPT-3 for computer vision) to create detailed descriptions of images.
 
 
 Large-scale AI models have taken the world by storm in recent years. GPT-3, the first widely accessible large-scale AI model, was a step change in the field of AI. It's flexible enough to do nearly anything -- you just need to figure out how to ask it to do what you want. But GPT-3 is also limited to language -- it wasn't trained on images or other forms of data.
@@ -8,7 +8,7 @@ Large-scale AI models have taken the world by storm in recent years. GPT-3, the
 The success of GPT-3 has led to a new wave of massive AI models that work across different domains. We've seen DALL-E and CLIP, which can generate and classify images. We've also seen models that can work with both text and images, though these models are still in the early stages of development.
 
 
-In February 2022, Banana.dev (full disclosure -- I'm a small investor in Banana) set up an open source ML research community, Plantain Labs. Plantain Labs' first model, Carrot, is a general-purpose computer vision model that can answer questions about an image. Carrot is surprisingly powerful, and is quite accurate in its answers.
+In February 2022, [Banana.dev](https://banana.dev/) (full disclosure -- I'm a small investor in Banana) set up an open source ML research community, Plantain Labs. Plantain Labs' first model, Carrot, is a general-purpose computer vision model that can answer questions about an image. Carrot is surprisingly powerful, and is quite accurate in its answers.
 
 
 When I first got the chance to try out Carrot, I wanted to push it to the limit to see what I could do with it. My first target was image understanding -- I wanted to see how we could use Carrot to generate a highly detailed description of an image.
@@ -31,6 +31,7 @@ Here are some examples:
 
 If you want to try it out yourself, you can use either the Python file or notebook in this repo, or you can use this link to access the Colab version (note -- the Colab won't be updated as this repo is updated): https://colab.research.google.com/drive/1-k7CQX7kp6SEHLtF6XYSsJ7RvxCtgtLx?usp=sharing
 
+You'll also need an [OpenAI API Key](https://beta.openai.com/), and a [Banana API Key](https://www.banana.dev/).
 
 If you're curious about how this works, here's a brief overview. It's a bit complicated, and has many layers, but once you understand it, you'll see why I made the decisions I made:
 - I used GPT-3 to simulate a "game" between two people -- one (A) is holding an image, the other (B) is trying to deeply understand what the image is without seeing it. (B) asks questions to (A). 
@@ -50,8 +51,7 @@ This method works surprisingly well, but there's a lot that could be improved:
 - The final descriptions sometimes contain negative statements (i.e. "He has brown hair. He is not bald."). We might want to consider removing these from the final descriptions (in this case, "He is not bald.") as they don't add anything to the final result.
 
 
-Anyway, I wasn't able to spend too much time on this since my focus is on building OthersideAI, but I wanted to share what I built so far so that the AI community can continue to improve it. 
+Anyway, I wasn't able to spend too much time on this since my focus is on building [OthersideAI](https://othersideai.com), but I wanted to share what I built so far so that the AI community can continue to improve it. 
 
 
 There are some really amazing use-cases that are enabled if we can improve the accuracy of the final results... for example, imagine being able to automatically describe any image on the web to someone who is vision impaired.
-
